@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-background: #16161a;
+  --color-card-background: #242629;
+  --color-stroke: #010101;
+  --color-main: #fffffe;
+  --color-btn: #fffffe;
+  --color-sub: #94a1b2;
+  --color-primary: #7f5af0;
+  --color-secondary: #72757e;
+  --color-tertiary: #2cb67d;
+}
