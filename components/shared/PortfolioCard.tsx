@@ -16,9 +16,9 @@ const cardData = [
       "React.js",
       "Tailwind CSS",
       "Shadcn UI",
-      "Netlify",
+      "Vercel",
     ],
-    link: "https://shantoopaul.netlify.app/",
+    link: "https://shantoopaul.vercel.app/",
     github: "https://github.com/shantoopaul/shantoopaul-portfolio",
   },
   {
