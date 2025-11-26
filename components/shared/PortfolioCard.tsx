@@ -6,6 +6,23 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 const cardData = [
   {
     id: 1,
+    title: "This Page",
+    description:
+      "My portfolio site :)",
+    image: "/portfolio/Portfolio.png",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Netlify",
+    ],
+    link: "https://shantoopaul.netlify.app/",
+    github: "https://github.com/shantoopaul/shantoopaul-portfolio",
+  },
+  {
+    id: 2,
     title: "Rock Paper Scissors",
     description:
       "Rock, Paper, Scissors against the computer.",
@@ -15,6 +32,7 @@ const cardData = [
       "SASS",
       "HTML",
       "CSS",
+      "Netlify",
     ],
     link: "https://sleekrockpaperscissor.netlify.app/",
     github: "https://github.com/shantoopaul/rock-paper-scissors",
