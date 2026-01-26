@@ -35,13 +35,10 @@ export default function Hero() {
           {/* Main heading */}
           <h1 className="space-y-0 sm:space-y-2 text-balance">
             <span className="text-4xl md:text-5xl font-bold leading-tight text-secondary block">
-              {"{Full Stack}"}
+              {"{Frontend}"}
             </span>
             <span className="text-4xl md:text-5xl font-bold leading-tight">
-              {" "}MERN
-            </span>
-            <span className="text-4xl md:text-5xl font-bold leading-tight">
-              {" "}Developer<span className="text-secondary">_</span>
+              Developer<span className="text-secondary">_</span>
             </span>
           </h1>
 
@@ -64,7 +61,7 @@ export default function Hero() {
             </Link>
             <Link
               className="px-8 py-2 rounded-full font-medium transition-all border-2 border-primary hover:bg-primary/80"
-              href="https://drive.google.com/file/d/1-1Gx2oZnbTysYtJwDttC6a-XWcrB6c9u/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ekpjx7WCDSBkM5RZR1sNvOzjiu8GDxdj/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download
