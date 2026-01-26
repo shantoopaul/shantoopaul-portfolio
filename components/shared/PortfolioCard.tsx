@@ -26,23 +26,6 @@ const cardData = [
   },
   {
     id: 2,
-    title: "This Page",
-    description:
-      "My portfolio site :)",
-    image: "/portfolio/Portfolio.png",
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "React.js",
-      "Tailwind CSS",
-      "Shadcn UI",
-      "Vercel",
-    ],
-    link: "https://shantoopaul.vercel.app/",
-    github: "https://github.com/shantoopaul/shantoopaul-portfolio",
-  },
-  {
-    id: 3,
     title: "Rock Paper Scissors",
     description:
       "Rock, Paper, Scissors against the computer.",
@@ -58,7 +41,7 @@ const cardData = [
     github: "https://github.com/shantoopaul/rock-paper-scissors",
   },
   {
-    id: 4,
+    id: 3,
     title: "Newz",
     description:
       "A comprehensive news aggregation platform that offers trending articles, premium content, and a seamless user experience. ",
@@ -75,7 +58,7 @@ const cardData = [
     github: "https://github.com/shantoopaul/Newz-client-side",
   },
   {
-    id: 5,
+    id: 4,
     title: "Study Buddies",
     description:
       "The primary purpose of this project is to facilitate collaboration among peers for online learning and assessment.",
