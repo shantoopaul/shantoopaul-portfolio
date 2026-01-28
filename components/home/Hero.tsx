@@ -61,7 +61,7 @@ export default function Hero() {
             </Link>
             <Link
               className="px-8 py-2 rounded-full font-medium transition-all border-2 border-primary hover:bg-primary/80"
-              href="https://drive.google.com/file/d/1ekpjx7WCDSBkM5RZR1sNvOzjiu8GDxdj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cq5l-Mo1Zv0StoFJ2_kKLCmDTGN5-Ra7/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download
