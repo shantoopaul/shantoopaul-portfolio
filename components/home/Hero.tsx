@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
-import IconCloudSlug from "../shared/IconCloudSlug";
+import Image from "next/image";
 
 export default function Hero() {
   const socialIcons = [
@@ -70,7 +70,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          {/* Technology icons */}
+          {/* Social icons */}
           <div className="flex items-center space-x-4 pt-4 text-btn">
             {socialIcons.map(({ id, icon, href }) => (
               <Link
@@ -86,7 +86,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center">
-           <IconCloudSlug />
+          <Image src={"/shanto-paul.png"} alt="Shanto Paul" width={400} height={400} />
         </div>
       </div>
     </div>
