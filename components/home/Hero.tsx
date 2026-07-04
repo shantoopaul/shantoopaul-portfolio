@@ -28,14 +28,14 @@ export default function Hero() {
           {/* Greeting with HTML tags */}
           <div className="sm:text-lg">
             <span className="text-tertiary">{"<span>"}</span>
-            <span className="ml-2">Hi there, I&apos;m Shanto</span>
+            <span className="ml-2">Hi there, I'm Shanto</span>
             <span className="text-tertiary ml-2">{"</span>"}</span>
           </div>
 
           {/* Main heading */}
           <h1 className="space-y-0 sm:space-y-2 text-balance">
             <span className="text-4xl md:text-5xl font-bold leading-tight text-secondary block">
-              {"{Frontend}"}
+              {"{Full-Stack}"}
             </span>
             <span className="text-4xl md:text-5xl font-bold leading-tight">
               Developer<span className="text-secondary">_</span>
@@ -45,9 +45,9 @@ export default function Hero() {
           {/* Description paragraph */}
           <div className="sm:text-lg max-w-[60ch]">
             <span className="text-tertiary">{"<p>"}</span>
-            <span className="ml-2 text-sub">
-              Based in Dhaka, Bangladesh. I build web applications that solve real problems. Always open to interesting projects and collaborations.
-            </span>
+            <p className="ml-2 text-sub inline">
+              Based in <a href="https://www.google.com/maps/place/Dhaka, Bangladesh" className="border-b-2 border-dashed border-b-tertiary">Dhaka, Bangladesh</a>. I enjoy building pixel-perfect interactive apps through strategy, design and engineering.
+            </p>
             <span className="text-tertiary ml-2">{"</p>"}</span>
           </div>
 
@@ -57,13 +57,12 @@ export default function Hero() {
               href="#contact"
               className="px-8 py-2 rounded-full font-medium transition-all bg-primary hover:bg-primary/80"
             >
-              Contact
+              Hire me
             </Link>
             <Link
               className="px-8 py-2 rounded-full font-medium transition-all border-2 border-primary hover:bg-primary/80"
-              href="https://drive.google.com/file/d/1cq5l-Mo1Zv0StoFJ2_kKLCmDTGN5-Ra7/view?usp=sharing"
+              href="/Shanto-Paul-Full-Stack-Developer-Resume.pdf"
               target="_blank"
-              rel="noopener noreferrer"
               download
             >
               Resume
@@ -78,7 +77,7 @@ export default function Hero() {
                 key={id}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full flex items-center justify-center transition-all bg-primary hover:bg-primary/80"
+                className="w-8 h-8 rounded-full flex items-center justify-center transition-all bg-secondary hover:bg-secondary/80"
               >
                 {icon}
               </Link>
