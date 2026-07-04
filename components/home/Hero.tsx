@@ -85,7 +85,51 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center">
-          <Image src={"/shanto-paul.png"} alt="Shanto Paul" width={400} height={400} />
+          <div className="relative w-120 h-120 flex items-center justify-center">
+            {/* Rotating dashed hexagon outline */}
+            <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full animate-spin-slow">
+              <defs>
+                <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="var(--color-primary)" />
+                  <stop offset="100%" stopColor="var(--color-tertiary)" />
+                </linearGradient>
+              </defs>
+              <polygon
+                points="50,2 95,26 95,74 50,98 5,74 5,26"
+                fill="none"
+                stroke="url(#hexGradient)"
+                strokeWidth="1.5"
+                strokeDasharray="8 6"
+              />
+            </svg>
+
+            {/* Static inner hexagon frame */}
+            <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full">
+              <polygon
+                points="50,8 90,29 90,71 50,92 10,71 10,29"
+                fill="none"
+                stroke="var(--color-primary)"
+                strokeOpacity="0.4"
+                strokeWidth="1"
+              />
+            </svg>
+
+            {/* Hexagon-clipped image */}
+            <div
+              className="w-[85%] h-[85%] overflow-hidden"
+              style={{
+                clipPath: "polygon(50% 4%, 92% 27%, 92% 73%, 50% 96%, 8% 73%, 8% 27%)",
+              }}
+            >
+              <Image
+                src={"/shanto-paul.png"}
+                alt="Shanto Paul"
+                width={400}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

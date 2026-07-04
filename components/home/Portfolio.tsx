@@ -8,8 +8,8 @@ const Portfolio: React.FC = () => {
           <span className="text-primary">03 </span>
           SELECTED WORK
         </h2>
-        <p className="heading-size font-bold leading-none">
-          Things I've <span className="text-primary">built</span> & maintained
+        <p className="heading-size leading-none">
+          Things I've <span className="text-primary italic">built</span> & maintained
         </p>
       </hgroup>
       <PortfolioCard />

@@ -16,3 +16,17 @@
 .heading-size {
   font-size: clamp(2rem, 1.4966rem + 2.1477vw, 3rem);
 }
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}

@@ -7,10 +7,10 @@ export default function About() {
       <hgroup className="flex flex-col gap-3 mb-10">
         <h2 className="text-secondary text-xs font-bold">
           <span className="text-primary">02 </span>
-          WHO AM I
+          ABOUT ME
         </h2>
-        <p className="heading-size font-bold leading-none">
-          About me
+        <p className="heading-size leading-none">
+          Who am <span className="text-primary italic">I</span>
         </p>
       </hgroup>
 
