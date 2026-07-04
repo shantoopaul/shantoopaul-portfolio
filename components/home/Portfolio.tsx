@@ -4,7 +4,7 @@ const Portfolio: React.FC = () => {
   return (
     <div className="py-16">
       <hgroup className="flex flex-col gap-3 mb-10">
-        <h2 className="text-secondary text-xs font-bold">
+        <h2 className="text-secondary text-sm font-bold">
           <span className="text-primary">03 </span>
           SELECTED WORK
         </h2>

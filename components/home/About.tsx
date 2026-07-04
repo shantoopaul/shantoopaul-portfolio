@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="pb-16">
       <hgroup className="flex flex-col gap-3 mb-10">
-        <h2 className="text-secondary text-xs font-bold">
+        <h2 className="text-secondary text-sm font-bold">
           <span className="text-primary">02 </span>
           ABOUT ME
         </h2>

@@ -33,18 +33,18 @@ export default function Footer() {
       <div className="flex justify-center gap-1">
         {footerLinks.map((link) => (
           <Link
-          key={link.id}
-          href={link.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-2 rounded-full transition-all duration-300 hover:bg-primary/80 hover:text-main text-primary"
+            key={link.id}
+            href={link.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-full transition-all duration-300 hover:bg-primary/80 hover:text-main text-primary"
           >
             <span className="sr-only">{link.title} Link</span>
             {link.icon}
           </Link>
         ))}
       </div>
-      <p className="text-sub text-xs md:text-sm">
+      <p className="text-sub text-sm">
         © {new Date().getFullYear()} Shanto Paul. All Rights Reserved.
       </p>
     </footer>
