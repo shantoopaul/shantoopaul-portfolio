@@ -2,7 +2,7 @@ import GithubButton from "@/components/shared/GithubButton";
 
 export default function About() {
   return (
-    <div className="py-16">
+    <div className="pb-16">
       <h2 className="text-4xl md:text-5xl mb-6">
         About Me
       </h2>
@@ -12,7 +12,7 @@ export default function About() {
           Hi! I&apos;m <strong>Shanto</strong>. My coding journey started in 2020 when I stumbled upon some coding tutorials on YouTube out of curiosity. Since then, I&apos;ve explored many courses and different ways to learn coding. Last year, I decided to take things more seriously and completed the <strong>Programming Hero Complete Web Development</strong> course.
         </p>
         <p>
-          I enjoy both sides of development: designing smooth, clean interfaces and solving tricky problems behind the scenes. 
+          I enjoy both sides of development: designing smooth, clean interfaces and solving tricky problems behind the scenes.
         </p>
         <p>
           When I&apos;m not coding, I usually watch YouTube, play video games, or plan my next world domination scheme :)

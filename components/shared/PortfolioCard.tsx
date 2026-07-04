@@ -26,22 +26,6 @@ const cardData = [
   },
   {
     id: 2,
-    title: "Rock Paper Scissors",
-    description:
-      "Rock, Paper, Scissors against the computer.",
-    image: "/portfolio/Rock-Paper-Scissors.png",
-    tech: [
-      "JavaScript",
-      "SASS",
-      "HTML",
-      "CSS",
-      "Netlify",
-    ],
-    link: "https://sleekrockpaperscissor.netlify.app/",
-    github: "https://github.com/shantoopaul/rock-paper-scissors",
-  },
-  {
-    id: 3,
     title: "Newz",
     description:
       "A comprehensive news aggregation platform that offers trending articles, premium content, and a seamless user experience. ",
@@ -58,7 +42,7 @@ const cardData = [
     github: "https://github.com/shantoopaul/Newz-client-side",
   },
   {
-    id: 4,
+    id: 3,
     title: "Study Buddies",
     description:
       "The primary purpose of this project is to facilitate collaboration among peers for online learning and assessment.",
@@ -73,6 +57,22 @@ const cardData = [
     ],
     link: "https://studybuddies-2024.web.app/",
     github: "https://github.com/shantoopaul/study-buddies-client-side",
+  },
+  {
+    id: 4,
+    title: "Rock Paper Scissors",
+    description:
+      "Rock, Paper, Scissors against the computer.",
+    image: "/portfolio/Rock-Paper-Scissors.png",
+    tech: [
+      "JavaScript",
+      "SASS",
+      "HTML",
+      "CSS",
+      "Netlify",
+    ],
+    link: "https://sleekrockpaperscissor.netlify.app/",
+    github: "https://github.com/shantoopaul/rock-paper-scissors",
   }
 ];
 
