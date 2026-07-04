@@ -12,3 +12,7 @@
   --color-secondary: #72757e;
   --color-tertiary: #2cb67d;
 }
+
+.heading-size {
+  font-size: clamp(2rem, 1.4966rem + 2.1477vw, 3rem);
+}

@@ -3,9 +3,15 @@ import PortfolioCard from "@/components/shared/PortfolioCard";
 const Portfolio: React.FC = () => {
   return (
     <div className="py-16">
-      <h2 className="text-4xl md:text-5xl mb-12 text-center">
-        Things I've <span className="text-primary">built</span> & maintained
-      </h2>
+      <hgroup className="flex flex-col gap-3 mb-12">
+        <h2 className="text-secondary text-xs font-bold">
+          <span className="text-primary">03 </span>
+          SELECTED WORK
+        </h2>
+        <p className="heading-size font-bold">
+          Things I've <span className="text-primary">built</span> & maintained
+        </p>
+      </hgroup>
       <PortfolioCard />
     </div>
   );
