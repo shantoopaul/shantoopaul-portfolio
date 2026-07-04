@@ -4,19 +4,25 @@ import { InteractiveHoverButton } from "../ui/interactive-hover-button";
 export default function About() {
   return (
     <div className="pb-16">
-      <h2 className="text-4xl md:text-5xl mb-6">
-        About Me
-      </h2>
+      <hgroup className="flex flex-col gap-3 mb-6">
+        <h2 className="text-secondary text-xs font-bold">
+          <span className="text-primary">02 </span>
+          WHO AM I
+        </h2>
+        <p className="heading-size font-bold leading-none">
+          About me
+        </p>
+      </hgroup>
 
       <div className="space-y-6 max-w-[72ch] text-sub text-pretty">
         <p>
-          Hi! I&apos;m <strong>Shanto</strong>. My coding journey started in 2020 when I stumbled upon some coding tutorials on YouTube out of curiosity. Since then, I&apos;ve explored many courses and different ways to learn coding. Last year, I decided to take things more seriously and completed the <strong>Programming Hero Complete Web Development</strong> course.
+          Hi! I'm <strong>Shanto</strong>. My coding journey began in 2020 when I stumbled across a few coding tutorials on YouTube out of curiosity. Since then, I've explored countless courses and different approaches to learning software development.
         </p>
         <p>
-          I enjoy both sides of development: designing smooth, clean interfaces and solving tricky problems behind the scenes.
+          I write <span className="font-bold text-white">backends in Node.js</span>, ship <span className="font-bold text-white">frontends in React & Next.js</span>, and run the boring infra in between so the interesting parts stay interesting.
         </p>
         <p>
-          When I&apos;m not coding, I usually watch YouTube, play video games, or plan my next world domination scheme :)
+          I like to read so when I'm not coding I'm reading, studying my online courses, playing chess, and listening to music.
         </p>
         <p>
           My focus is on keeping things simple: building systems that are clean, easy to maintain, and strong enough to last.
