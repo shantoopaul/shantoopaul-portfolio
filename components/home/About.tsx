@@ -1,4 +1,5 @@
-import GithubButton from "@/components/shared/GithubButton";
+import Link from "next/link";
+import { InteractiveHoverButton } from "../ui/interactive-hover-button";
 
 export default function About() {
   return (
@@ -21,7 +22,11 @@ export default function About() {
           My focus is on keeping things simple: building systems that are clean, easy to maintain, and strong enough to last.
         </p>
         <div className="pt-5">
-          <GithubButton />
+          <Link href="https://github.com/shantoopaul">
+            <InteractiveHoverButton>
+              Visit Github
+            </InteractiveHoverButton>
+          </Link>
         </div>
       </div>
     </div>
