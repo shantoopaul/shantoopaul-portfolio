@@ -102,6 +102,7 @@ export default function Hero() {
                 width={400}
                 height={400}
                 className="w-full h-full object-contain"
+                loading="eager"
               />
             </div>
             <svg viewBox="0 0 100 100" className="absolute w-fit h-11/12 animate-spin-slow">
