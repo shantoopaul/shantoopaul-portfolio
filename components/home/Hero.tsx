@@ -25,6 +25,9 @@ export default function Hero() {
     <div className="min-h-screen py-16 grid">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div className="space-y-6">
+          <span className="text-secondary text-sm">
+            01 — Available for opportunities
+          </span>
           {/* Greeting with HTML tags */}
           <div className="sm:text-lg">
             <span className="text-tertiary">{"<span>"}</span>

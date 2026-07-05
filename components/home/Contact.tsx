@@ -30,9 +30,13 @@ export default function Contact() {
   return (
     <div className="pb-16 scroll-mt-20" id="contact">
       <hgroup className="mb-10">
-        <h2 className="heading-size">
-          Let's Build Something Together
+        <h2 className="text-secondary text-sm font-bold">
+          <span className="text-primary">05 </span>
+          CONTACT ME
         </h2>
+        <p className="heading-size">
+          Let's <span className="text-primary italic">build </span> something together
+        </p>
         <p className="max-w-[58ch] w-full text-sub">
           Feel free to reach out if you&apos;re looking for a developer,
           have a question, or just want to connect.
