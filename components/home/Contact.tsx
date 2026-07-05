@@ -22,10 +22,6 @@ export default function Contact() {
       },
       body: json
     });
-    const result = await response.json();
-    if (result.success) {
-      console.log(result);
-    }
   }
   return (
     <div className="pb-16 scroll-mt-20" id="contact">
