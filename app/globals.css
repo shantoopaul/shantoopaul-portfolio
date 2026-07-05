@@ -13,6 +13,11 @@
   --color-tertiary: #2cb67d;
 }
 
+.hero-image-size {
+  width: clamp(220px, 45vw, 30rem);
+  height: clamp(220px, 45vw, 30rem);
+}
+
 .heading-size {
   font-size: clamp(2rem, 1.4966rem + 2.1477vw, 3rem);
 }
