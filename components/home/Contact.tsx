@@ -80,12 +80,23 @@ export default function Contact() {
               <address className="not-italic">Dhaka, Bangladesh</address>
             </a>
           </div>
+
           <div className="mb-4">
             <a href="tel:+8801533302991">
               <h3 className="mb-2 text-tertiary">Contact Number</h3>
               <p>+880-153-330-2991</p>
             </a>
           </div>
+
+          <div className="mb-4">
+            <a href="https://wa.me/8801533302991"
+              target="_blank"
+              rel="noopener noreferrer">
+              <h3 className="mb-2 text-tertiary">WhatsApp Number</h3>
+              <p>+880-153-330-2991</p>
+            </a>
+          </div>
+
           <div className="mb-4">
             <a href="mailto:shantoopaul@gmail.com">
               <h3 className="mb-2 text-tertiary">Email</h3>
