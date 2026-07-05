@@ -29,7 +29,6 @@ export const projects: Project[] = [
             "Prisma ORM",
             "Supabase",
             "Lucia",
-            "Shadcn UI",
             "TanStack Query",
             "Zod",
             "Vercel",
