@@ -72,7 +72,7 @@ const backendStack = [
 
 export default function TechSlider() {
   return (
-    <div className="py-16">
+    <div className="py-16 scroll-mt-20" id="stack">
       <hgroup className="flex flex-col gap-3 mb-10">
         <h2 className="text-secondary text-sm font-bold">
           <span className="text-primary">04 </span>

@@ -28,7 +28,7 @@ export default function Contact() {
     }
   }
   return (
-    <div className="pb-16" id="contact">
+    <div className="pb-16 scroll-mt-20" id="contact">
       <hgroup className="mb-10">
         <h2 className="heading-size">
           Let's Build Something Together
@@ -68,7 +68,7 @@ export default function Contact() {
             required
           />
           <div>
-            <InteractiveHoverButton type="submit">
+            <InteractiveHoverButton type="submit" className="w-full flex justify-center">
               Submit Form
             </InteractiveHoverButton>
           </div>

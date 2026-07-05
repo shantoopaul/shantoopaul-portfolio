@@ -3,7 +3,7 @@ import { InteractiveHoverButton } from "../ui/interactive-hover-button";
 
 export default function About() {
   return (
-    <div className="pb-16">
+    <div className="pb-16 scroll-mt-20" id="about">
       <hgroup className="flex flex-col gap-3 mb-10">
         <h2 className="text-secondary text-sm font-bold">
           <span className="text-primary">02 </span>

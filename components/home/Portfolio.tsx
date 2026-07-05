@@ -2,7 +2,7 @@ import PortfolioCard from "@/components/shared/PortfolioCard";
 
 const Portfolio: React.FC = () => {
   return (
-    <div className="py-16">
+    <div className="py-16 scroll-mt-20" id="work">
       <hgroup className="flex flex-col gap-3 mb-10">
         <h2 className="text-secondary text-sm font-bold">
           <span className="text-primary">03 </span>
