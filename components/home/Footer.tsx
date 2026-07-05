@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import {
   FaGithub,
   FaLinkedinIn,
@@ -29,7 +28,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="pb-8 flex flex-col items-center justify-between gap-2">
+    <footer className="pb-8 flex flex-col items-center justify-between gap-2 text-center">
       <div className="flex justify-center gap-1">
         {footerLinks.map((link) => (
           <Link
@@ -45,7 +44,7 @@ export default function Footer() {
         ))}
       </div>
       <p className="text-sub text-sm">
-        © {new Date().getFullYear()} Shanto Paul. All Rights Reserved.
+        This portfolio is open source. <span className="inline-block"><a href="https://github.com/shantoopaul/shantoopaul-portfolio" className="border-b-2 border-dashed border-b-tertiary">Source code</a> :)</span>
       </p>
     </footer>
   );
